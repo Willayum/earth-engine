@@ -1,4 +1,5 @@
 import ee
+import geemap
 
 
 def main():
@@ -10,3 +11,12 @@ def main():
 
 if __name__ == '__main__':
     main()
+
+    ########################################################
+map = geemap.Map()
+print(map)
+
+    # feature = ee.Feature(map)
+    #
+    # print("Map ID:")
+    # print(feature.getMapId())
